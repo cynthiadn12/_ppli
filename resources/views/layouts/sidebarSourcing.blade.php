@@ -31,10 +31,17 @@
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu">
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="{{ route('user-management.index') }}"><i class="fa fa-link"></i> <span>User Management</span></a></li>
-        <li><a href="{{ route('customer-management.index') }}"><i class="fa fa-link"></i> <span>Customer Management</span></a></li>
-        <li><a href="{{ route('vendor-management.index') }}"><i class="fa fa-link"></i> <span>Vendor Management</span></a></li>
-        <li><a href="{{ route('fish-management.index') }}"><i class="fa fa-link"></i> <span>Fish Management</span></a></li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-link"></i> <span>Sourcing</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ url('') }}">List Sourcing</a></li>
+            <li><a href="{{ url('') }}">Distribution</a></li>
+          </ul>
+        </li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>

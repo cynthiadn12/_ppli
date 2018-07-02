@@ -32,7 +32,7 @@
               <li class="user-header">
                 <img src="{{ asset("/bower_components/AdminLTE/dist/img/user2-160x160.jpg") }}" class="img-circle" alt="User Image">
                 <p>
-                  Hello {{ Auth::user()->username }}
+                  Hello {{ Auth::user()->name }}
                 </p>
               </li>
               <!-- Menu Footer-->
