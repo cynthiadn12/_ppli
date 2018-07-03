@@ -57,7 +57,7 @@ class UserManagementController extends Controller
     public function store(Request $request)
     {
         $this->validateInput($request);
-        return User::create([
+        User::create([
             'nrp' => $request['nrp'],
             'name' => $request['name'],
             'email' => $request['email'],

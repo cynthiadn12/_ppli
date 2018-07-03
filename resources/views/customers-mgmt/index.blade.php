@@ -38,7 +38,7 @@
                                 <thead>
                                 <tr role="row">
                                     <th width="10%" class="sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Name: activate to sort column descending" aria-sort="ascending">Company Title</th>
-                                    <th width="20%" class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Customer Name</th>
+                                    <th width="20%" class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Company Name</th>
                                     <th width="20%" class="sorting hidden-xs" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Address</th>
                                     <th width="20%" class="sorting hidden-xs" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">NPWP</th>
                                     <th width="20%" class="sorting hidden-xs" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Sap Number</th>
@@ -73,7 +73,7 @@
                                 <tfoot>
                                 <tr>
                                     <th width="10%" rowspan="1" colspan="1">Company Title</th>
-                                    <th width="20%" rowspan="1" colspan="1">Customer Name</th>
+                                    <th width="20%" rowspan="1" colspan="1">Company Name</th>
                                     <th class="hidden-xs" width="20%" rowspan="1" colspan="1">Address</th>
                                     <th class="hidden-xs" width="20%" rowspan="1" colspan="1">NPWP</th>
                                     <th class="hidden-xs" width="20%" rowspan="1" colspan="1">Sap Number</th>
