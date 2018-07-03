@@ -38,8 +38,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
+            <li><a href="{{ url('') }}">Dashboard</a></li>
             <li><a href="{{ url('') }}">List Sourcing</a></li>
             <li><a href="{{ url('') }}">Distribution</a></li>
+            <li><a href="{{ url('') }}">Sourcing History</a></li>
           </ul>
         </li>
       </ul>

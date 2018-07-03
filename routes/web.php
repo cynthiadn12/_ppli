@@ -42,6 +42,9 @@ Route::group(['middleware' => ['web', 'auth']], function(){
     Route::resource('fish-management', 'FishManagementController');
     Route::get('avatars/{name}', 'FishManagementController@load');
 
+    Route::post('sourcing-dashboard/search', 'SourcingDashboardController@search')->name('sourcing-dashboard.search');
+    Route::resource('sourcing-dashboard', 'SourcingDashboardController');
+
 });
 
 
